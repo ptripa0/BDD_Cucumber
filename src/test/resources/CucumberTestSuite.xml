@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CucumberTestSuite" allow-return-values="true">
+
+
+<!-- 	
+<groups>
+
+		<run>
+			<include name="CucumberTestSuite" />
+		</run>
+
+</groups>
+-->
+
+	<test name="My Holiday test">
+		<classes>
+			<class
+				name="com.pelican.jdbc.runner.TestRunner"></class>
+		</classes>
+	</test>
+
+	
+<!-- 
+	<test name="Login test">
+		<parameter name="group_name" value="CucumberTestSuite" />
+		<parameter name="testSite_Url"  value="http://10.200.99.201:8200"/>
+		<classes>
+			<class
+				name="com.pelican.jdbc.stepDef.TC_LoginTest"></class>
+		</classes>
+	</test>
+	-->
+
+
+</suite>

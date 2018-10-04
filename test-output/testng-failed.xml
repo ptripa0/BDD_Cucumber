@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CucumberTestSuite]" allow-return-values="true">
+  <test name="My Holiday test">
+    <classes>
+      <class name="com.pelican.jdbc.runner.TestRunner"/>
+    </classes>
+  </test> <!-- My Holiday test -->
+</suite> <!-- Failed suite [CucumberTestSuite] -->
